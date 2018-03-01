@@ -19,7 +19,7 @@ gulp.task('default', () => {
 });
 ```
 
-##デフォルト設定(Defaults)
+## デフォルト設定(Defaults)
 
 詳しい設定については、[Prettier](https://github.com/prettier/prettier)を参照してください。
 
