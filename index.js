@@ -5,7 +5,7 @@ const through = require('through2'),
   merge = require('merge'),
   applySourceMap = require('vinyl-sourcemaps-apply');
 
-var PluginError = gutil.PluginError;
+const PluginError = gutil.PluginError;
 
 module.exports = function(opt) {
   function transform(file, encoding, callback) {
