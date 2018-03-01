@@ -27,7 +27,7 @@ gulp.task('default', () => {
 {
   printWidth: 80,
   tabWidth: 2,
-  useFlowParser: false,
+  parser: 'flow',
   singleQuote: false,
   trailingComma: false,
   bracketSpacing: true
