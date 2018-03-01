@@ -27,7 +27,7 @@ module.exports = function(opt) {
         // Number of spaces it should use per tab
         tabWidth: 2,
         // Use the flow parser instead of babylon
-        useFlowParser: true,
+        parser: 'flow',
         // If true, will use single instead of double quotes
         singleQuote: false,
         // Controls the printing of trailing commas wherever possible
